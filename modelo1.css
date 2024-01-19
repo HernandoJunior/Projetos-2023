@@ -81,6 +81,12 @@ body *{
     left: 0;
     transform: translateY(-50%);
     top: 50%;
+    animation: slide-back .4s;
+}
+
+#troca-layout button:hover{
+    outline: 8px solid var(--color-links-hover);
+
 }
 
 #troca-layout span{
@@ -95,8 +101,7 @@ body *{
 }
 
 .light #troca-layout button{
-    right: 0;
-    left: initial;
+    animation: slide .4s forwards;
 }
 
 ul{
@@ -167,5 +172,23 @@ footer{
 
     .light{
         --paperback: url(./assets/bg-desktop-light.jpg);
+    }
+}
+
+@keyframes slide{
+    from{
+        left: 0;
+    }
+    to {
+        left: 50%;
+    }
+}
+
+@keyframes slide-back{
+    from{
+        left: 50%;
+    }
+    to {
+        left: 0;
     }
 }

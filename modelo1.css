@@ -32,7 +32,8 @@ body{
     background-position: top center;
     background-size: cover; */
     /*backgound: color image repeat position/size*/ 
-    background: var(--paperback) no-repeat top center/cover
+    background: var(--paperback) no-repeat top center/cover;
+    height: 100vh;
 }
 
 /*DEFINICAO DE COR DE LETRA E TIPO DA LETRA DA PAGINA*/
@@ -158,3 +159,13 @@ footer{
     font-size: 14px;
 }
 
+/* media queries*/
+@media (min-width: 700px){
+    :root{
+        --paperback: url(./assets/bg-desktop.jpg);
+    }
+
+    .light{
+        --paperback: url(./assets/bg-desktop-light.jpg);
+    }
+}

@@ -35,7 +35,3 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 DevLinks é usado como cartão de visitas online e apresentação de perfil.
 
 Esse projeto está sob a licença MIT.
-
----
-
-Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)

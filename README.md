@@ -34,12 +34,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 DevLinks é usado como cartão de visitas online e apresentação de perfil.
 
-## 🔖 Layout
-
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/TYv1wuqzMAShXEN3MSAOWX/DevLinks-%E2%80%A2-Projeto-Discover-(Community)?type=design&node-id=1437-191&mode=design&t=7riyeyfq3sqr1SrY-0). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
-
-## :memo: Licença
-
 Esse projeto está sob a licença MIT.
 
 ---
